@@ -1,5 +1,7 @@
 # Segmented LED Display - ASCII Library
 
+![Header Image](../master/Images/LED-ASCII-Library.png)
+
 ## Synopsis
 
 This repository contains integer literals for displaying ASCII characters on 7 segment, 14 segment, and 16 segment LED displays.
@@ -8,19 +10,19 @@ I needed a set of 16 segment and 7 segment ASCII characters for a project, but I
 
 Each character set covers all visible ASCII characters, starting at 32 ('space') and ending at 127 ('del'). Segments are ordered sequentially.
 
-### 16 Segment
+## 16 Segment
 
 ![All Sixteen-Segment Characters](../master/Images/All%20Characters/16-Segment-ASCII-All.png "Sixteen-segment display characters")
 
 Sixteen-segment characters require 17 bits each (16 segments + the decimal point). I've also included a "No Decimal Point" (NDP) set which only requires 16 bits per character. The only other character difference is for '.' which has the display point moved to segment 'R'.
 
-### 14 Segment
+## 14 Segment
 
 ![All Fourteen-Segment Characters](../master/Images/All%20Characters/14-Segment-ASCII-All.png "Fourteen-segment display characters")
 
 Fourteen-segment characters require 15 bits each (14 segments + the decimal point). Many of these are 1:1 with their 16-segment counterparts, with changes only where a single horizontal edge segment was used.
 
-### 7 Segment
+## 7 Segment
 
 ![All Seven-Segment Characters](../master/Images/All%20Characters/7-Segment-ASCII-All.png "Seven-segment display characters")
 
