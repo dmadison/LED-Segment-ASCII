@@ -35,7 +35,7 @@ Seven-segment characters require 8 bits each (7 segments + the decimal point). I
 For each set the segments are ordered sequentially. Bit '0' corresponds to segment 'A', bit '1' corresponds to segment 'B', and so-on. Here are the ordered segments for each display:
 
 * 16 Segment: DP-U-T-S-R-P-N-M-K-H-G-F-E-D-C-B-A
-* 14 Segment: DP-L-M-N-K-J-H-G2-G1-F-E-D-C-B-A
+* 14 Segment: DP-N-M-L-K-J-H-G2-G1-F-E-D-C-B-A
 * 7 Segment: DP-G-F-E-D-C-B-A
 
 Use the above image as reference for the segment names and positions.
